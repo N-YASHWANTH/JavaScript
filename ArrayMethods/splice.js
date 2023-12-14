@@ -16,4 +16,4 @@ console.log(arr2.splice(2,3,10,11));//[2,3,4]
 
 //When we use splice(index,no.of elements) method with 2 arguments it removes the specifed no.of elements from that index position.
 
-//When we use splice(index,no.of elements, elements to be inserted) method with more than 2 arguments it removes the specified no.of elements from that position and adds the elements that are to be inserted from that same position.
+//When we use splice(index,no.of elements, elements to be inserted) method with more than 2 arguments it removes the specified no.of elements from that position and adds the elements that are to be inserted from that same index position.
