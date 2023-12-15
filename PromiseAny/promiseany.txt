@@ -1,0 +1,7 @@
+promise.any()
+
+->We have to pass array of promises as an argument.
+
+->If there is atleast one resolved promise it returns the first resolved promise.
+
+->If there are no resolved promises it returns error message.
