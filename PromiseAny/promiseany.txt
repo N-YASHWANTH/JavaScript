@@ -4,4 +4,4 @@ promise.any()
 
 ->If there is atleast one resolved promise it returns the first resolved promise.
 
-->If there are no resolved promises it returns error message.
+->If there are no resolved promises it returns all reject messages in form of an array.
