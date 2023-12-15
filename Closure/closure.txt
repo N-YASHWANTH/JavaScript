@@ -1,0 +1,9 @@
+Closure
+
+->When we have nested function if we want access a variable inside inner function which is not initialized in inner function.
+
+->So, then it goes in search of its parent scope this is called as lexical scope.
+
+->If it is not present in that scope it goes in search of its parent scope.
+
+->If that variable is not present it gives an error.

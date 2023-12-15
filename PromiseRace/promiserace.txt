@@ -1,0 +1,7 @@
+promise.race()
+
+->This method accepts an array of promises.
+
+->This returns resolved message only if all the promises are resolved.
+
+->If we have atleast 1 reject message this will return the first rejected message.

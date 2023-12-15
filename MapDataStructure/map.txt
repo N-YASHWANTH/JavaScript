@@ -1,0 +1,61 @@
+Maps:
+
+->This is similar to that of Objects.
+
+->A Map holds key-value pairs where the keys can be any datatype.
+
+->A Map has a property that represents the size of the map.
+
+There are Many Methods in Map DataStructure:
+
+->new Map() : This is used to create new Map Object.
+let costOfItems=new map([
+    ["Biscuit",5rs]
+    ["Chocolate",10rs]
+    ["Chips",20rs]
+])
+
+->set() : This is used to set the value to the key in the Map.
+let costOfItems=new map()
+costOfItems.set("Biscuit",5rs)
+costOfItems.set("Chocolate",10rs)
+costOfItems.set("Chips",20rs)
+
+->get() : This is used to get the value of the key in the Map.
+costOfItems.set("Biscuit")
+
+->clear() : This is used to remove all the elements from the map.
+costOfItems.clear()
+
+->delete() : This is used to delete the entry specified by key.
+costOfItems.delete("Biscuit")
+
+->has() : This is used to check whether the key is present or not. It returns true if it is present else return false.
+costOfItems.set("Chips")
+
+->entries() : This is used to return all the entries present in the map.
+costOfItems.entries()
+
+->foreach() : This is used to iterate over map Object.
+costOfItems.foreach((values,keys)=>{
+    console.log(keys," ---> ",values)
+})
+
+->keys() : This is used to return all the keys present in the map.
+costOfItems.keys()
+
+->values() : This is used to return all the values present in the map.
+costOfItems.values()
+
+->There is also a property named as size that is used to find the size of map.
+
+The main difference between Object and Map is:
+
+Object:                                                             Maps:
+
+->Not Directly Iterable.                                           ->Directly Iterable.
+->No size property.                                                ->Size Property is present.
+->Keys must be Strings.                                            ->Keys can be of any Datatype.
+->Keys are not well ordered.                                       ->Keys are Ordered by insertion.
+->Have default keys.                                               ->Do not have Default Keys.     
+
