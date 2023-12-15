@@ -36,6 +36,11 @@ costOfItems.set("Chips")
 ->entries() : This is used to return all the entries present in the map.
 costOfItems.entries()
 
+->foreach() : This is used to iterate over map Object.
+costOfItems.foreach((values,keys)=>{
+    console.log(keys," ---> ",values)
+})
+
 ->keys() : This is used to return all the keys present in the map.
 costOfItems.keys()
 
