@@ -1,0 +1,10 @@
+Hoisting:
+
+->Making the use of variables before declaration & initialization is called as Hoisting.
+
+->The process of getting the output as "undefined" is known as successful hoisting.
+
+->Hoisting can be achieved only with var variables,because it belongs to global scope 
+  where,the result is "Undefined".
+
+->Hoisting cannot be achieved with let & const variables,because they belong to script scope.

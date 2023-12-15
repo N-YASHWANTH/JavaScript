@@ -1,7 +1,6 @@
 IIFE -> This is abbrevated as Immediate Invoke Function.
 
-->IIFE function is the function that is written inside a paranthesis.
-->The syntax of IIFE function is similar to that of Anonymouis function,but we will not assign this to a variable.
+->IIFE function is the function that is written inside a paranthesis(()).
 ->This function must be called/invoked immediately after the function declaration only, and can't be called anywhere else.
 
 
