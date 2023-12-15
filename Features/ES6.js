@@ -17,12 +17,21 @@ let numbers = [23,55,21,87,56];
 let max = Math.max(...numbers);
 console.log(max);
 
+let arr=[1,2,3,4]
+
+let newarr=[]
+console.log("New Array--------",newarr);
+
 //For/of
 sum=0
 for(i of numbers){
     sum=sum+i
 }
 console.log(sum);
+
+numbers.forEach((element,i) => {
+    console.log(i,"-----",element);
+});
 
 //Promises
 let prom=new Promise((resolve,reject)=>{
