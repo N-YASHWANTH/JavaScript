@@ -1,0 +1,10 @@
+promise.all()
+
+->This is commonly used to perform multiple asynchronous operations in parallel.
+
+->We have to pass array of promises as an argument.
+
+->Syntax:
+promise.all([promise1,promise2,.....])
+
+->This works only when all the promises are resolved.
