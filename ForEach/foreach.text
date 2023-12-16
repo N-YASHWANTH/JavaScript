@@ -4,3 +4,4 @@ foreach:
 
 ->The forEach() method is not executed for empty elements.
 
+->The foreach() method will modify in the same array.

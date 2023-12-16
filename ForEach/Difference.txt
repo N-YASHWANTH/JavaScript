@@ -1,0 +1,36 @@
+Foreach
+
+Foreach takes a callback function 
+and run that callback function on each element of array one by one.
+Basically forEach works as a traditional for loop looping over the array 
+and providing you array elements to do operations on them.
+
+
+Foreach vs Filter
+
+The main difference between forEach and filter is that forEach just loop over the array 
+and executes the callback but filter executes the callback and check its return value. 
+If the value is true element remains in the resulting array 
+but if the return value is false the element will be removed for the resulting array.
+
+Also take notice filter does not update the existing array 
+it will return a new filtered array every time.
+
+
+ForEach vs Map vs Filter
+
+Map like filter & foreach takes a callback and run it against every element on the array 
+but whats makes it unique is it generate a new array based on your existing array.
+
+The provided callback to map modifies the array elements and save them into the new array upon completion 
+that array get returned as the mapped array.
+
+
+Reduce
+
+As the name already suggest reduce method of the array object 
+is used to reduce the array to one single value.
+
+So that is how reduce works it reduces the array 
+into one single value and returns it upon completion.
+
