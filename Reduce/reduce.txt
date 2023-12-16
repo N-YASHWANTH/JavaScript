@@ -12,5 +12,4 @@ ex:
 const numbers = [175, 50, 25];
 
 let diff=numbers.reduce((total,num)=>total-num)
-
 console.log(diff)
