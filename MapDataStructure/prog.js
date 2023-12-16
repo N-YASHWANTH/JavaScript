@@ -54,5 +54,5 @@ console.log(fruits.values());
 
 //to get the size of Map Object.
 
-console.log(fruits.size());
-console.log(costOfItems.size());
+console.log(fruits.size);
+console.log(costOfItems.size);
