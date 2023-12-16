@@ -3,3 +3,4 @@ result = ages.filter((age)=>age>=18);
 
 console.log("Modified array---------",result)
 console.log("Original array----------",ages)
+
