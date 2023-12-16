@@ -1,5 +1,5 @@
 let arr=[1,2,3,4]
-newarr=arr.map((num)=>num*num)
+arr.map((num)=>num*num)
 
 console.log("Original Array-------------",arr);
 console.log("Modified Array-------------",newarr)
