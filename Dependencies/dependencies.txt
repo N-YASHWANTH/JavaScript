@@ -6,6 +6,8 @@ that are used in the project with its version number.
 ->So, whenever you install any library that is required in your project that library you can find 
 it in the dependencies object. 
 
+->Production dependencies are required for your application to run.
+
 Dev Dependencies:
 
 ->In package.json file, there is an object called as dev Dependencies and it consists of all the packages 
@@ -13,3 +15,5 @@ that are used in the project in its development phase and not in the production 
 
 ->So, whenever you want to install any library that is required only in your development phase then
 you can find it in the dev Dependencies object.
+
+->dev dependencies are only needed during development.
