@@ -1,0 +1,36 @@
+*Array:
+
+->An array is a special variable, which can hold more than one value
+ex: let cars = ["Audi", "Volvo", "BMW"]
+
+Why we use Array?
+->When we have to store multiple values into a single variable then we use array.
+
+*Creating an Array:
+->Using an array literal is the easiest way to create a JavaScript Array.
+
+*Syntax:
+let array_name = [item1, item2, ...];
+
+->You can also create an array, and then provide the elements:
+
+ex:
+let cars = []
+cars[0]= "Audi"
+cars[1]= "Volvo"
+cars[2]= "BMW"
+
+->Using the JavaScript Keyword new
+
+ex:
+let cars = new Array("Saab", "Volvo", "BMW")
+
+*Accessing Array Elements
+->You cab access an array element by referring to the index number:
+
+let car = cars[0]
+
+*Changing an Array Element
+->This statement changes the value of the first element in cars:
+
+cars[0] = "Thar"
