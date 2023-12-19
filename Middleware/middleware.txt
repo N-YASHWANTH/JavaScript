@@ -1,7 +1,15 @@
 Middleware:
 
-->Middleware is a term for any software or service that enables the parts of a system 
-to communicate and manage data.
+->Middleware is a software that acts as bridge between Application and Operating System.
 
-->It is the software that handles communication between components and input/output, 
-so developers can focus on the specific purpose of their application.
+->This is also known as plumbing, because it helps in transferring data back and forth.
+
+There are 2 types of Middleware:
+
+->Enterprise Middleware:
+
+->This is used to connect Enterprise Application or software components.
+
+->Platform Middleware:
+
+->This supports Application Development by providing system of managed tools and resources.
