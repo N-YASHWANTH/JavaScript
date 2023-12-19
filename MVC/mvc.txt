@@ -1,0 +1,22 @@
+-> MVC is abbrevated as Model View Controller.
+
+->These are divided into 3 sections Model, View and Controller.
+
+Model:
+->This is used to handle the logic.
+->This interacts with the Database.
+
+View:
+->This is used to handle Data Presentation.
+->Dynamically reduced.
+
+Controller:
+->This is used to handle the request flow.
+->This never handles Data Logic.
+
+->Firstly, when user sends the request the request will be passed to controller layer.
+->Then the Controller layer sends the request to the Model layer, which returns the data.
+->The Controller receives the data and sends it to the View Layer.
+->The view layer is responsible for how to present the data.
+->This presented data from the view layer is send back to the Controller layer.
+->The Controller will send that presented data back to the user.
