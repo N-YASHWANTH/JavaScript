@@ -1,0 +1,5 @@
+->REST stands for REpresentational State Transfer
+
+Rest Api:
+->These are set of rules for building and interacting with web server.
+->It is an architectural style that uses standard HTTP methods.

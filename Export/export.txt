@@ -1,0 +1,10 @@
+Default Export:
+
+->This export is used for exporting only one value per module.
+->Name is independent while importing.
+
+Named Export:
+
+->This can export several values per one module.
+->We have to use the same name when importing.
+->use curly braces to get values out during import.

@@ -1,0 +1,30 @@
+HTTP Methods:
+
+*Get:
+->This method is used to retrive/fetch the data from the server.
+->This is a safe method.
+
+*Put:
+->This method is used to update the data in the server.
+
+*Post:
+->This method is used to create the data in the server.
+
+*Delete:
+->This method is used to delete the data from the server.
+
+Safe Method:
+
+->If the operations we perform doesn't change the contents in the server then those methods are called as Safe Methods.
+->Get is the safe method, when we fetch records from the server it doesn't affect the data in the server.
+
+Unsafe Method:
+
+->If the operations we perform change the contents in the server then those methods are called as Unsafe Methods.
+->Put,Post And Delete are Unsafe Methods as these methods make changes in the server.
+
+Idempotent:
+->When we perform a operation multiple operations it doesnot affect the server.
+->This type of operations are called Idempotent.
+->Put and Delete are Idempotent.
+->Post is not Idempotent.
