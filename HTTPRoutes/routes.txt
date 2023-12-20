@@ -3,3 +3,7 @@ HTTP Router:
 ->This is a module (or) a component that helps in handling HTTP requests.
 ->This directs to appropriate handler function based on the requsted URL and HTTP methods.
 ->These routers play a crucial role in organizing and managing router of an application.
+
+routes:
+
+->This refers to thepath (or) URL that a web application responds to.
