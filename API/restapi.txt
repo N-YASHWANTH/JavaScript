@@ -1,4 +1,5 @@
 ->REST stands for REpresentational State Transfer
 
 Rest Api:
-->When we search for something we will get list of results back from service you requested from.
+->These are set of rules for building and interacting with web server.
+->It is an architectural style that uses standard HTTP methods.
