@@ -1,0 +1,17 @@
+req.params:
+
+->The req.params property is an object containing properties mapped to named route parameter.
+
+ex:
+If we have a route /student/:id, then "id" property is available as "req.params.id".
+
+req.header:
+
+->Specifies the content types that are valid in response messages.
+->A request header is a part of HTTP request sent by client to the server.
+
+req.body:
+
+->It is used to access the data submitted in the body of POST (or) PUT request.
+->This property contains key-value pair of data submitted in request body.
+->By default, it is undefined.
