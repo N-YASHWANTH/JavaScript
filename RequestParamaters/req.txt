@@ -1,0 +1,8 @@
+req.params:
+
+->This is an object containing properties mapped to named route parameter.
+
+req.header:
+
+->Specifies the content types that are valid in response messages.
+->A request header is a part of HTTP request sent by client to the server.
