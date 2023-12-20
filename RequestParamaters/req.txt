@@ -6,3 +6,7 @@ req.header:
 
 ->Specifies the content types that are valid in response messages.
 ->A request header is a part of HTTP request sent by client to the server.
+
+req.body:
+
+->It is used to access the data submitted in the body of POST (or) PUT request.
